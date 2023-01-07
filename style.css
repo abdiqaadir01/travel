@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+background-color: rgb(38, 47, 175);
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: rgb(254, 254, 255);
+}
+.menu ul{
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(254, 254, 255);
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 5px 12px;
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid rgb(56, 219, 34);
+    transition: 0.4px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: rgb(254, 254, 255);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #fcfafa;
+
+}
+.signup a:hover{
+    background-color: red;
+    transition: 0.6s;
+}
+
+.body{
+    width: 100%;
+height: 90vh;
+    display: flex;
+  justify-content: space-around;
+  background-size: cover;
+  margin-top: 200px;
+
+}
+
+.heading{
+    width: 30%;
+    text-align: center;
+
+}
+
+.heading h1{
+    font-size: 40px;
+}
+
+.heading a{
+    text-decoration: none;
+    color: rgb(254, 254, 255);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 15px;
+    background-color: rgb(38, 47, 175);
+}
+
+.heading a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+
+.tours{
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+}
+.placess{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.placess h2{
+    color: #f8f8f8;
+    font-size: 35px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    padding: 30px 30px;
+    background-color: rgb(48, 13, 143);
+}
+.placess a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px ;
+    background-color: rgb(38, 47, 175);
+
+}
+
+.placess a:hover{
+    background-color: #000;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgb(38, 47, 175);
+}
+.footer a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+}
